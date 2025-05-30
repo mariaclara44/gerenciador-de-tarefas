@@ -86,4 +86,7 @@ console.log(`Tarefas combinadas: ${tarefas.concat(tarefas)}`);
 console.log(`Tarefas combinadas: ${Tarefa02.concat(Tarefa02).join(`, `)}`);
 
 
- 
+// Transformando as Tarefas (Metódo map)
+let adiconaTarefas = tarefas.map(tarefas=> "Fazer: " + tarefas)
+console.log(`Inserir a palavra fazer: ${adiconaTarefas}`);
+
