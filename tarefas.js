@@ -28,3 +28,12 @@ let tarefaRemovida = tarefas.pop();
 console.log(`Depois do pop: ${tarefas}`);
 console.log(`Tarefa removida: ${tarefaRemovida} `);
 
+// Metódo unshift 
+
+console.log(`Antes do unshift: ${tarefas}`);
+
+//Adicionado uma novo elemento no ínicio do Array
+tarefas.unshift(`Inscrição para ENEM`);
+
+console.log(`Depois do unshift: ${tarefas}`);
+
