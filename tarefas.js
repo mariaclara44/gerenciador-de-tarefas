@@ -52,3 +52,9 @@ console.log(`Depois do shift: ${PrimeiraTarefaRemovida}`);
 console.log(`As tarefas incluem Ir à academia? ${tarefas.includes(`Ir à academia`)}`);
 
 
+// Metódo join 
+
+// Convertendo o array em uma string 
+console.log(`Tarefas como string: ${tarefas.join(`, `)}`);
+
+
