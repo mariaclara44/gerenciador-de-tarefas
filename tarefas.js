@@ -102,11 +102,13 @@ console.log(`Tarefas filtradas (elementos com mais de 15 letras): ${tarefatFiltr
 // Etapa 12: Ordenando as Tarefas (Método sort)
 let tarefasOrdenadas = tarefas.sort();
 
+// Organizando por ordem alfabética
 console.log(`Tarefas ordenadas ${tarefasOrdenadas}`);
 
 
 // Etapa 13: Invertendo a Ordem das Tarefas ( Métodos reverse )
 
+// Invertendo as tarefas
 let tarefaInvertida = tarefas.reverse();
 console.log(`Tarefas invertidas ${tarefaInvertida}`);
 
