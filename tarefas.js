@@ -46,16 +46,17 @@ let PrimeiraTarefaRemovida = tarefas.shift();
 
 console.log(`Depois do shift: ${PrimeiraTarefaRemovida}`);
 
-// Metódo includes 
+//Etapa 5: Verificando se uma Tarefa Existe (Metódo includes) 
 
 //Verificando se o array possui um determinado elemento
 console.log(`As tarefas incluem Ir à academia? ${tarefas.includes(`Ir à academia`)}`);
 
 
-// Metódo join 
+// Etapa 6: Transformando a Lista em String (Metódo join) 
 
 // Convertendo o array em uma string 
 console.log(`Tarefas como string: ${tarefas.join(`, `)}`);
+
 
 //  Etapa 7: Extraindo uma Parte da Lista (Metódo splice) 
 
@@ -77,6 +78,12 @@ console.log(`Elemento removido: ${elementoRemovido}`);
 tarefas [3] = 'Cuidar das plantas'
 console.log(`Depois da substituição: ${tarefas}`);
 
- 
- 
+
+//Concatenando Tarefas (Metódo concat)
+let Tarefa02 = ["Assitir séries", "Ir ao médico"];
+
+console.log(`Tarefas combinadas: ${tarefas.concat(tarefas)}`);
+console.log(`Tarefas combinadas: ${Tarefa02.concat(Tarefa02).join(`, `)}`);
+
+
  
