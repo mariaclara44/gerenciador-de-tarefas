@@ -82,12 +82,18 @@ console.log(`Depois da substituição: ${tarefas}`);
 //Concatenando Tarefas (Metódo concat)
 let Tarefa02 = ["Assitir séries", "Ir ao médico"];
 
-console.log(`Tarefas combinadas: ${tarefas.concat(tarefa02)}`);
+console.log(`Tarefas combinadas: ${tarefas.concat(Tarefa02)}`);
 console.log(`Tarefas combinadas: ${Tarefa02.concat(Tarefa02).join(`, `)}`);
 
 
 // Etapa 10: Transformando as Tarefas (Metódo map)
+
+// Inserindo a palavra fazer no ínicio das tarefas
 let adiconaTarefas = tarefas.map(tarefas=> "Fazer: " + tarefas)
 console.log(`Inserir a palavra fazer: ${adiconaTarefas}`);
 
-Etapa 11: Filtrando Tarefas
+// Etapa 11: Filtrando Tarefas (Metódos filter )
+
+// Filtrando as tarefas que têm mais de 15 caracteres
+let tarefatFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
+console.log(`Tarefas filtradas (elementos com mais de 15 letras): ${tarefatFiltrada}`);
