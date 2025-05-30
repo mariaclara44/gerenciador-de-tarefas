@@ -46,3 +46,9 @@ let PrimeiraTarefaRemovida = tarefas.shift();
 
 console.log(`Depois do shift: ${PrimeiraTarefaRemovida}`);
 
+// Metódo includes 
+
+//Verificando se o array possui um determinado elemento
+console.log(`As tarefas incluem Ir à academia? ${tarefas.includes(`Ir à academia`)}`);
+
+
