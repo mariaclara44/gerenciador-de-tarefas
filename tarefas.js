@@ -1,3 +1,4 @@
+// Metódo push
 let tarefas = ['Estudar JavaScript',
     'Fazer exercícios de matemática', 
     'Lavar a louça', 
@@ -12,8 +13,18 @@ let tarefas = ['Estudar JavaScript',
 console.log(`Antes do push ${tarefas}`);
 
 // Adicionado dois novos elementos no array
-tarefas.push (`Fazer exercícios de português, Corrida`);
-
+tarefas.push (`Fazer exercícios de português`, `Corrida`);
 
 console.log(`Depois do push: ${tarefas}`);
+
+
+//Metódo pop
+console.log(`Antes do pop: ${tarefas}`);
+
+// Removendo o último elemento do array 
+
+let tarefaRemovida = tarefas.pop();
+
+console.log(`Depois do pop: ${tarefas}`);
+console.log(`Tarefa removida: ${tarefaRemovida} `);
 
