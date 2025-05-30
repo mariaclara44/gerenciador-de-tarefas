@@ -97,3 +97,10 @@ console.log(`Inserir a palavra fazer: ${adiconaTarefas}`);
 // Filtrando as tarefas que têm mais de 15 caracteres
 let tarefatFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
 console.log(`Tarefas filtradas (elementos com mais de 15 letras): ${tarefatFiltrada}`);
+
+
+// Etapa 12: Ordenando as Tarefas (Metódo sort)
+let tarefasOrdenadas = tarefas.sort();
+
+console.log(`Tarefas ordenadas ${tarefasOrdenadas}`);
+
