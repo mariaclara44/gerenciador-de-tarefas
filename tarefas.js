@@ -1,14 +1,14 @@
 // Metódo push
-let tarefas = ['Estudar JavaScript',
-    'Fazer exercícios de matemática', 
-    'Lavar a louça', 
-    'Comprar mercado', 
-    'Ir à academia',
-    'Ler um livro', 
-    'Fazer revisão para o teste', 
-    'Limpar o quarto', 
-    'Estudar para concurso', 
-    'Organizar o computador'];
+let tarefas = ["Estudar JavaScript",
+    "Fazer exercícios de matemática", 
+    "Lavar a louça", 
+    "Comprar mercado", 
+    "Ir à academia",
+    "Ler um livro", 
+    "Fazer revisão para o teste", 
+    "Limpar o quarto", 
+    "Estudar para concurso", 
+    "Organizar o computador"];
 
 console.log(`Antes do push ${tarefas}`);
 
@@ -57,4 +57,7 @@ console.log(`As tarefas incluem Ir à academia? ${tarefas.includes(`Ir à academ
 // Convertendo o array em uma string 
 console.log(`Tarefas como string: ${tarefas.join(`, `)}`);
 
+// Metódo splice 
 
+// Extraindo uma Parte da Lista 
+console.log(`Parte da tarefa: (índices 2 a 4): ${tarefas.slice(2, 5)}`);
