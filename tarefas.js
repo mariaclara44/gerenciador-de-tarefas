@@ -37,3 +37,12 @@ tarefas.unshift(`Inscrição para ENEM`);
 
 console.log(`Depois do unshift: ${tarefas}`);
 
+// Metódo shift 
+
+console.log(`Antes do shif: ${tarefas}`);
+
+// Removendo o priemiro elemento do array
+let PrimeiraTarefaRemovida = tarefas.shift();
+
+console.log(`Depois do shift: ${PrimeiraTarefaRemovida}`);
+
