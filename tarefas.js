@@ -57,7 +57,26 @@ console.log(`As tarefas incluem Ir à academia? ${tarefas.includes(`Ir à academ
 // Convertendo o array em uma string 
 console.log(`Tarefas como string: ${tarefas.join(`, `)}`);
 
-// Metódo splice 
+//  Etapa 7: Extraindo uma Parte da Lista (Metódo splice) 
 
 // Extraindo uma Parte da Lista 
 console.log(`Parte da tarefa: (índices 2 a 4): ${tarefas.slice(2, 5)}`);
+
+// Etapa 8: Alterando a Lista (Metódos splice) 
+
+console.log(`Antes do splice: ${tarefas.join(`, `)}`);
+
+
+
+// Removendo o indice 3 
+let elementoRemovido = tarefas.splice(3, 1);
+console.log(`Depois do splice: ${tarefas}`);
+console.log(`Elemento removido: ${elementoRemovido}`);
+
+// Substituindo por uma nova tarefa
+tarefas [3] = 'Cuidar das plantas'
+console.log(`Depois da substituição: ${tarefas}`);
+
+ 
+ 
+ 
